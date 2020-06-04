@@ -1,10 +1,10 @@
 <template>
   <div class="portfolio overflow-hidden">
     <nav class="flex items-center justify-between flex-wrap p-6 nav">
-      <div class="flex items-center flex-shrink-0 text-white ml-10">
+      <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
       </div>
-      <div class="block lg:hidden">
+      <!-- <div class="block lg:hidden">
         <button
           @click="toggle"
           class="flex items-center px-3 py-2 border rounded text-purple-400 border-purple-600 hover:text-white hover:border-white"
@@ -14,7 +14,7 @@
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
-      </div>
+      </div> -->
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow"></div>
         <div>
@@ -29,7 +29,7 @@
           <nuxt-link
             to="#"
             class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white"
-          >Her Blog</nuxt-link> -->
+          >Her Blog</nuxt-link>-->
         </div>
       </div>
     </nav>
@@ -40,13 +40,22 @@
       >She has a skillset in Product Management and also building web skills with JavaScript and two of its frameworks: React(NextJS) and Vue(NuxtJS). She is also very much interested in Tech Education and as such, she mentors in a couple of programs: StartNG, HNG Internship and She Code Africa</h2>
     </div>
     <div class="social-icons">
-      <nuxt-link to="https://www.linkedin.com/in/oluwatomisinlalude/" class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5">
+      <nuxt-link
+        to="https://www.linkedin.com/in/oluwatomisinlalude/"
+        class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
+      >
         <img src="linkedin.svg" alt="linkedin" />
       </nuxt-link>
-      <nuxt-link to="https://twitter.com/tomisinlalude" class="block lg:inline-block text-purple-400 hover:text-white mr-5">
+      <nuxt-link
+        to="https://twitter.com/tomisinlalude"
+        class="block lg:inline-block text-purple-400 hover:text-white mr-5"
+      >
         <img src="twitter.svg" alt="twitter" />
       </nuxt-link>
-      <nuxt-link to="https://www.facebook.com/oluwatomisinlalude/" class="block lg:inline-block text-purple-400 hover:text-white mr-5">
+      <nuxt-link
+        to="https://www.facebook.com/oluwatomisinlalude/"
+        class="block lg:inline-block text-purple-400 hover:text-white mr-5"
+      >
         <img src="facebook.svg" alt="facebook" />
       </nuxt-link>
     </div>
@@ -111,28 +120,46 @@ export default {
   top: 3%;
 }
 
-@media (max-width: 767px) { 
-    .container {
-        margin: 0;
-        height: 70vh;
-    }
+@media (max-width: 767px) {
+  .container {
+    margin: 0;
+    height: 70vh;
+  }
 
-    .about {
-        margin-right: 0 !important;
-    }
-    
-    .title {
-        font-size: 23px;
-    }
-    .subtitle {
-        margin: 10%;
-        font-size: 18px;
-        line-height: 1.5;
-        text-align: justify;
-    }
-    .social-icons {
-        position: static;
-        display: flex;
-    }
- }
+  .about {
+    margin-right: 0 !important;
+  }
+
+  .title {
+    font-size: 23px;
+    margin-top: 8%;
+  }
+  .subtitle {
+    margin: 10%;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .social-icons {
+    position: static;
+    display: flex;
+  }
+  
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    padding: 25px;
+  }
+
+  .brand-name {
+    margin-left: 0;
+  }
+
+  .about {
+    margin-top: 0;
+    float: right;;
+  }
+
+}
 </style>
