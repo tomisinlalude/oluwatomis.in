@@ -40,7 +40,7 @@
     <div class="social-icons p-6">
       <a
         href="https://www.linkedin.com/in/oluwatomisinlalude/"
-        class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
+        class="block linkedin lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
       >
         <img src="linkedin.svg" alt="linkedin" />
       </a>
@@ -138,9 +138,15 @@ export default {
     line-height: 1.5;
     text-align: center;
   }
+
   .social-icons {
     position: relative;
     display: flex;
+    padding: 0;
+  }
+
+  .linkedin {
+    margin-left: 30px;
   }
 
   .nav {
