@@ -38,24 +38,24 @@
       <h2 class="subtitle">The Web and the Girl</h2>
     </div>
     <div class="social-icons p-6">
-      <nuxt-link
-        to="https://www.linkedin.com/in/oluwatomisinlalude/"
+      <a
+        href="https://www.linkedin.com/in/oluwatomisinlalude/"
         class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
       >
         <img src="linkedin.svg" alt="linkedin" />
-      </nuxt-link>
-      <nuxt-link
-        to="https://twitter.com/tomisinlalude"
+      </a>
+      <a
+        href="https://twitter.com/tomisinlalude"
         class="block lg:inline-block text-purple-400 hover:text-white mr-5"
       >
         <img src="twitter.svg" alt="twitter" />
-      </nuxt-link>
-      <nuxt-link
-        to="https://www.facebook.com/oluwatomisinlalude/"
+      </a>
+      <a
+        href="https://www.facebook.com/oluwatomisinlalude/"
         class="block lg:inline-block text-purple-400 hover:text-white mr-5"
       >
         <img src="facebook.svg" alt="facebook" />
-      </nuxt-link>
+      </a>
     </div>
   </div>
 </template>
