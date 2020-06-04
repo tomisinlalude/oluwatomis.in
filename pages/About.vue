@@ -29,31 +29,24 @@
           <nuxt-link
             to="#"
             class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white"
-          >Her Blog</nuxt-link>-->
+          >Her Blog</nuxt-link> -->
         </div>
       </div>
     </nav>
     <div class="container">
-      <h1 class="title">Tomisin Lalude</h1>
-      <h2 class="subtitle">The Web and the Girl</h2>
+      <h1 class="title">About Tomisin</h1>
+      <h2
+        class="subtitle"
+      >She has a skillset in Product Management and also building web skills with JavaScript and two of its frameworks: React(NextJS) and Vue(NuxtJS). She is also very much interested in Tech Education and as such, she mentors in a couple of programs: StartNG, HNG Internship and She Code Africa</h2>
     </div>
-    <div class="social-icons p-6">
-      <nuxt-link
-        to="https://www.linkedin.com/in/oluwatomisinlalude/"
-        class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
-      >
+    <div class="social-icons">
+      <nuxt-link to="https://www.linkedin.com/in/oluwatomisinlalude/" class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5">
         <img src="linkedin.svg" alt="linkedin" />
       </nuxt-link>
-      <nuxt-link
-        to="https://twitter.com/tomisinlalude"
-        class="block lg:inline-block text-purple-400 hover:text-white mr-5"
-      >
+      <nuxt-link to="https://twitter.com/tomisinlalude" class="block lg:inline-block text-purple-400 hover:text-white mr-5">
         <img src="twitter.svg" alt="twitter" />
       </nuxt-link>
-      <nuxt-link
-        to="https://www.facebook.com/oluwatomisinlalude/"
-        class="block lg:inline-block text-purple-400 hover:text-white mr-5"
-      >
+      <nuxt-link to="https://www.facebook.com/oluwatomisinlalude/" class="block lg:inline-block text-purple-400 hover:text-white mr-5">
         <img src="facebook.svg" alt="facebook" />
       </nuxt-link>
     </div>
@@ -86,7 +79,7 @@ export default {
 }
 
 .container {
-  margin: 15% 10%;
+  margin: 10% 10%;
   text-align: center;
 }
 
@@ -110,6 +103,7 @@ export default {
   color: #ffffff;
   word-spacing: 5px;
   padding-bottom: 15px;
+  margin: 0 15%;
 }
 
 .social-icons {
