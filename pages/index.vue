@@ -116,4 +116,30 @@ export default {
   position: relative;
   top: 3%;
 }
+
+@media (max-width: 767px) { 
+    .container {
+        margin: 10% auto;
+        height: 50vh;
+    }
+
+    .about {
+        margin-right: 0 !important;
+    }
+    
+    .title {
+        font-size: 30px;
+        
+    }
+    .subtitle {
+        margin: 10%;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .social-icons {
+        position: relative;
+        display: flex;
+    }
+ }
 </style>

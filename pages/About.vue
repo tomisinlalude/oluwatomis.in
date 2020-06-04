@@ -20,7 +20,7 @@
         <div>
           <nuxt-link
             to="/about"
-            class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
+            class="about block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
           >About Her</nuxt-link>
           <!-- <nuxt-link
             to="#"
@@ -110,4 +110,28 @@ export default {
   position: relative;
   top: 3%;
 }
+
+@media (max-width: 767px) { 
+    .container {
+        margin: 0;
+    }
+
+    .about {
+        margin-right: 0 !important;
+    }
+    
+    .title {
+        font-size: 23px;
+    }
+    .subtitle {
+        margin: 10%;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .social-icons {
+        position: static;
+        display: flex;
+    }
+ }
 </style>
