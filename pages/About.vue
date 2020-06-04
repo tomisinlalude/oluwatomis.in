@@ -114,6 +114,7 @@ export default {
 @media (max-width: 767px) { 
     .container {
         margin: 0;
+        height: 70vh;
     }
 
     .about {
