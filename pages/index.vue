@@ -37,7 +37,7 @@
       <h1 class="title">Tomisin Lalude</h1>
       <h2 class="subtitle">The Web and the Girl</h2>
     </div>
-    <div class="social-icons p-6">
+    <div class="social-icons">
       <a
         href="https://www.linkedin.com/in/oluwatomisinlalude/"
         class="block linkedin lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"

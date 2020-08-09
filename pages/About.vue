@@ -117,7 +117,7 @@ export default {
 
 .social-icons {
   position: relative;
-  top: 3%;
+  top: 0;
 }
 
 @media (max-width: 767px) {
