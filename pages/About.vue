@@ -4,32 +4,17 @@
       <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
       </div>
-      <!-- <div class="block lg:hidden">
-        <button
-          @click="toggle"
-          class="flex items-center px-3 py-2 border rounded text-purple-400 border-purple-600 hover:text-white hover:border-white"
-        >
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div> -->
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow"></div>
-        <div>
+        <div class="nav-links">
           <nuxt-link
             to="/about"
             class="about block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
           >About Her</nuxt-link>
-          <!-- <nuxt-link
-            to="#"
-            class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
-          >Her Work</nuxt-link>
           <nuxt-link
             to="#"
-            class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white"
-          >Her Blog</nuxt-link>-->
+            class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
+          >Her Projects</nuxt-link>
         </div>
       </div>
     </nav>
@@ -40,24 +25,24 @@
       >She has a skillset in Product Management and also building web skills with JavaScript and two of its frameworks: React(NextJS) and Vue(NuxtJS). She is also very much interested in Tech Education and as such, she mentors in a couple of programs: StartNG, HNG Internship and She Code Africa</h2>
     </div>
     <div class="social-icons">
-      <nuxt-link
-        to="https://www.linkedin.com/in/oluwatomisinlalude/"
-        class="block lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
+      <a
+        href="https://www.linkedin.com/in/oluwatomisinlalude/"
+        class="block linkedin lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
       >
         <img src="linkedin.svg" alt="linkedin" />
-      </nuxt-link>
-      <nuxt-link
-        to="https://twitter.com/tomisinlalude"
+      </a>
+      <a
+        href="https://twitter.com/tomisinlalude"
         class="block lg:inline-block text-purple-400 hover:text-white mr-5"
       >
         <img src="twitter.svg" alt="twitter" />
-      </nuxt-link>
-      <nuxt-link
-        to="https://www.facebook.com/oluwatomisinlalude/"
+      </a>
+      <a
+        href="https://www.facebook.com/oluwatomisinlalude/"
         class="block lg:inline-block text-purple-400 hover:text-white mr-5"
       >
         <img src="facebook.svg" alt="facebook" />
-      </nuxt-link>
+      </a>
     </div>
   </div>
 </template>
@@ -66,11 +51,11 @@
 import { mapGetters, mapMutations } from "vuex";
 export default {
   methods: {
-    ...mapMutations({ toggle: "drawer/toggle" })
+    ...mapMutations({ toggle: "drawer/toggle" }),
   },
   computed: {
-    ...mapGetters({ drawer: "drawer/getNavState" })
-  }
+    ...mapGetters({ drawer: "drawer/getNavState" }),
+  },
 };
 </script>
 
@@ -126,8 +111,12 @@ export default {
     height: 70vh;
   }
 
-  .about {
-    margin-right: 0 !important;
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 3rem;
   }
 
   .title {
@@ -144,7 +133,7 @@ export default {
     position: static;
     display: flex;
   }
-  
+
   .nav {
     display: flex;
     flex-wrap: nowrap;
@@ -158,8 +147,7 @@ export default {
 
   .about {
     margin-top: 0;
-    float: right;;
+    float: right;
   }
-
 }
 </style>
