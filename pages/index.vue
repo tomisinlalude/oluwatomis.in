@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio">
-    <nav class="flex items-center justify-between flex-wrap p-6 nav">
+    <nav class="flex items-center justify-between flex-wrap p-6">
       <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
       </div>
@@ -123,17 +123,11 @@
     position: relative;
     display: flex;
     padding: 0;
+    margin-top: -3rem;
   }
 
   .linkedin {
     margin-left: 30px;
-  }
-
-  .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100vw;
-    padding: 25px;
   }
 
   .brand-name {

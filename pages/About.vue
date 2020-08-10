@@ -1,6 +1,6 @@
 <template>
-  <div class="portfolio overflow-hidden">
-    <nav class="flex items-center justify-between flex-wrap p-6 nav">
+  <div class="portfolio">
+    <nav class="flex items-center justify-between flex-wrap p-6">
       <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
       </div>
@@ -127,7 +127,7 @@ export default {
     font-size: 23px;
     margin-top: 8%;
   }
-  
+
   .subtitle {
     margin: 10%;
     font-size: 18px;
