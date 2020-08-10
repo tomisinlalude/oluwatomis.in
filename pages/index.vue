@@ -87,7 +87,7 @@
 @media (max-width: 767px) {
   .portfolio {
     height: 100vh;
-    overflow-y: hidden;
+    overflow: hidden !important;
   }
   
   .container {

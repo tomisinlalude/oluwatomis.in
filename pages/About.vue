@@ -106,6 +106,10 @@ export default {
 }
 
 @media (max-width: 767px) {
+  .portfolio {
+    height: 100vh;
+  }
+  
   .container {
     margin: 0;
     height: 70vh;
@@ -137,6 +141,7 @@ export default {
   .social-icons {
     position: static;
     display: flex;
+    margin-top: -3rem;
   }
 
   .brand-name {
