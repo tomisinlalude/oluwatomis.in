@@ -87,7 +87,7 @@
 @media (max-width: 767px) {
   .portfolio {
     height: 100vh;
-    overflow: hidden;
+    overflow-y: hidden;
   }
   
   .container {
@@ -123,7 +123,7 @@
     position: relative;
     display: flex;
     padding: 0;
-    margin-top: -3rem;
+    margin-top: -7rem;
   }
 
   .linkedin {
