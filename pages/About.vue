@@ -119,10 +119,15 @@ export default {
     padding-top: 3rem;
   }
 
+  .about {
+    margin-bottom: 1rem;
+  }
+
   .title {
     font-size: 23px;
     margin-top: 8%;
   }
+  
   .subtitle {
     margin: 10%;
     font-size: 18px;
@@ -132,13 +137,6 @@ export default {
   .social-icons {
     position: static;
     display: flex;
-  }
-
-  .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100vw;
-    padding: 25px;
   }
 
   .brand-name {

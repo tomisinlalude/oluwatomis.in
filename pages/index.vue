@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio overflow-hidden">
+  <div class="portfolio">
     <nav class="flex items-center justify-between flex-wrap p-6 nav">
       <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
@@ -85,8 +85,13 @@
 }
 
 @media (max-width: 767px) {
+  .portfolio {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
   .container {
-    margin: 10% auto;
+    margin: 5% auto;
     height: 50vh;
   }
 
@@ -97,6 +102,10 @@
     align-items: flex-end;
     padding-top: 3rem;
   }
+
+.about {
+  margin-bottom: 1rem;
+}
 
   .title {
     font-size: 38px;
