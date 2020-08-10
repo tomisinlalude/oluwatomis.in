@@ -1,6 +1,6 @@
 <template>
-  <div class="portfolio">
-    <nav class="flex items-center justify-between flex-wrap p-6">
+  <div class="portfolio overflow-hidden">
+    <nav class="flex items-center justify-between flex-wrap p-6 nav">
       <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
       </div>
@@ -60,12 +60,6 @@ export default {
 </script>
 
 <style scoped>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-
 .portfolio {
   width: 100%;
   height: 100vh;
@@ -106,13 +100,15 @@ export default {
 }
 
 @media (max-width: 767px) {
-  .portfolio {
-    height: 100vh;
-  }
-  
   .container {
     margin: 0;
     height: 70vh;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .nav-links {
@@ -120,7 +116,7 @@ export default {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .about {
@@ -141,16 +137,10 @@ export default {
   .social-icons {
     position: static;
     display: flex;
-    margin-top: -3rem;
   }
 
   .brand-name {
     margin-left: 0;
-  }
-
-  .about {
-    margin-top: 0;
-    float: right;
   }
 }
 </style>

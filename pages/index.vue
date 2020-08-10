@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio">
-    <nav class="flex items-center justify-between flex-wrap p-6">
+    <nav class="flex items-center justify-between flex-wrap p-6 nav">
       <div class="flex items-center flex-shrink-0 text-white ml-10 brand-name">
         <nuxt-link to="/" class="font-bold text-xl tracking-tight">TomisinLalude</nuxt-link>
       </div>
@@ -89,7 +89,13 @@
     height: 100vh;
     overflow: hidden !important;
   }
-  
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
   .container {
     margin: 5% auto;
     height: 50vh;
@@ -100,12 +106,12 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
-.about {
-  margin-bottom: 1rem;
-}
+  .about {
+    margin-bottom: 1rem;
+  }
 
   .title {
     font-size: 38px;
