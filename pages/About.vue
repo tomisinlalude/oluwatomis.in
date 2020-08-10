@@ -24,26 +24,6 @@
         class="subtitle"
       >She has a skillset in Product Management and also building web skills with JavaScript and two of its frameworks: React(NextJS) and Vue(NuxtJS). She is also very much interested in Tech Education and as such, she mentors in a couple of programs: StartNG, HNG Internship and She Code Africa</h2>
     </div>
-    <div class="social-icons">
-      <a
-        href="https://www.linkedin.com/in/oluwatomisinlalude/"
-        class="block linkedin lg:inline-block text-purple-400 hover:text-white ml-10 mr-5"
-      >
-        <img src="linkedin.svg" alt="linkedin" />
-      </a>
-      <a
-        href="https://twitter.com/tomisinlalude"
-        class="block lg:inline-block text-purple-400 hover:text-white mr-5"
-      >
-        <img src="twitter.svg" alt="twitter" />
-      </a>
-      <a
-        href="https://www.facebook.com/oluwatomisinlalude/"
-        class="block lg:inline-block text-purple-400 hover:text-white mr-5"
-      >
-        <img src="facebook.svg" alt="facebook" />
-      </a>
-    </div>
   </div>
 </template>
 
