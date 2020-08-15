@@ -12,7 +12,7 @@
             class="about block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
           >About Her</nuxt-link>
           <nuxt-link
-            to="#"
+            to="/projects"
             class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
           >Her Projects</nuxt-link>
         </div>
