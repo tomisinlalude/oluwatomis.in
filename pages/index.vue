@@ -10,11 +10,15 @@
           <nuxt-link
             to="/about"
             class="about block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
-          >About Her</nuxt-link>
+          >About</nuxt-link>
           <nuxt-link
             to="/projects"
             class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
-          >Her Projects</nuxt-link>
+          >Projects</nuxt-link>
+          <nuxt-link
+            to="/articles"
+            class="block mt-4 lg:inline-block lg:mt-0 text-purple-400 hover:text-white mr-4"
+          >Articles</nuxt-link>
         </div>
       </div>
     </nav>
@@ -109,13 +113,9 @@
     padding-top: 2rem;
   }
 
-  .about {
-    margin-bottom: 1rem;
-  }
-
   .title {
     font-size: 38px;
-    margin-top: 30%;
+    margin-top: 10%;
   }
 
   .subtitle {
@@ -129,7 +129,7 @@
     position: relative;
     display: flex;
     padding: 0;
-    margin-top: -7rem;
+    margin-top: -3rem;
   }
 
   .linkedin {
