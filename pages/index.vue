@@ -57,7 +57,7 @@
 }
 
 .container {
-  margin: 15% 10%;
+  margin: 15% auto;
   text-align: center;
 }
 
