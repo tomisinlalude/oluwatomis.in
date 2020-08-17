@@ -44,7 +44,7 @@
             >SASS</span>
             <span
               class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-600"
-            >WordPress</span>
+            >WP</span>
           </div>
         </div>
 
@@ -58,7 +58,7 @@
               My personal corner for public exposure and oppportunities
             </p>
           </div>
-          <div class="px-6 py-4">
+          <div class="px-6 py-4 flex flex-wrap">
             <span
               class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-600 mr-2"
             >NuxtJS</span>
@@ -113,7 +113,6 @@ export default {
 <style scoped>
 .portfolio {
   width: 100%;
-  height: 100vh;
   background: #161718;
 }
 
@@ -161,7 +160,6 @@ export default {
 @media (max-width: 767px) {
   .container {
     margin: 0;
-    height: 70vh;
   }
 
   .nav {
