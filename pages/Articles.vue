@@ -48,7 +48,7 @@ export default {
 }
 
 .container {
-  margin: 10% 10%;
+  margin: 10% auto;
   text-align: center;
 }
 
