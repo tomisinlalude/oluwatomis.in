@@ -113,7 +113,6 @@ export default {
 <style scoped>
 .portfolio {
   width: 100%;
-  height: 100vh;
   background: #161718;
 }
 
@@ -195,6 +194,12 @@ export default {
 
   .brand-name {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 767px) {
+  .portfolio {
+    height: 100vh;
   }
 }
 </style>
