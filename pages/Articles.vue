@@ -24,7 +24,7 @@
     </nav>
     <div class="container">
       <h1 class="title">Articles</h1>
-      <h3 class="subtitle">Click <a href="oluwatomisin.xyz"><span class="text-purple-400">here</span></a> to view my blog at Hashnode.</h3>
+      <h3 class="subtitle">Click <a href="https://oluwatomisin.xyz"><span class="text-purple-400">here</span></a> to view my blog at Hashnode.</h3>
     </div>
   </div>
 </template>
